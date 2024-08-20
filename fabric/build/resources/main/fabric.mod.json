@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "light_level_description",
+  "version": "0.1.0",
+  "name": "Nuttar's Light Level Description",
+  "description": "",
+  "authors": [
+    "Nuttar",
+    "Default_Snowman"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/light_level_description/icon.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "light_level_description.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "java": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
